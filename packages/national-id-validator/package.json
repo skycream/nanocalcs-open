@@ -1,0 +1,56 @@
+{
+  "name": "national-id-validator",
+  "version": "0.1.0",
+  "description": "Check-digit validation and detection of national ID numbers from 18 countries (KR RRN, JP My Number, CN, IN Aadhaar/PAN, TR, BR CPF/CNPJ, ID NIK, RU SNILS/INN, ES DNI/NIE, FR NIR, PK, MY, SA, VN, US SSN) plus IBAN. Zero dependencies.",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "sideEffects": false,
+  "homepage": "https://nanocalcs.com/en/pii-redactor/",
+  "keywords": [
+    "national-id",
+    "validator",
+    "checksum",
+    "aadhaar",
+    "cpf",
+    "cnpj",
+    "my-number",
+    "rrn",
+    "iban",
+    "pii"
+  ],
+  "author": "nanocalcs.com",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest run",
+    "prepublishOnly": "npm run build && npm test"
+  },
+  "devDependencies": {
+    "tsup": "9.0.0",
+    "typescript": "6.0.3",
+    "vitest": "5.0.5"
+  }
+}

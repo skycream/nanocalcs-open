@@ -1,0 +1,28 @@
+model,provider,condition,input_usd_per_mtok,output_usd_per_mtok,cached_input_usd_per_mtok,context_tokens,max_output_tokens,source_url,checked
+GPT-6 Astra,OpenAI,,10,50,1,1050000,128000,https://developers.openai.com/api/docs/pricing,2026-10-15
+GPT-6.1 Sol,OpenAI,,2,10,0.1,1050000,128000,https://developers.openai.com/api/docs/pricing,2026-10-15
+GPT-6 Luna,OpenAI,,0.1,0.5,0.01,1050000,128000,https://developers.openai.com/api/docs/pricing,2026-10-15
+GPT-5.6 Sol,OpenAI,,4,20,0.4,,,https://developers.openai.com/api/docs/pricing,2026-10-15
+GPT-5.5,OpenAI,,5,30,0.5,,,https://developers.openai.com/api/docs/pricing,2026-10-15
+GPT-5.4 mini,OpenAI,,0.75,4.5,0.075,,,https://developers.openai.com/api/docs/pricing,2026-10-15
+GPT-5 mini,OpenAI,,0.25,2,0.025,,,https://developers.openai.com/api/docs/pricing,2026-10-15
+GPT-4.1,OpenAI,,2,8,0.5,1047576,32768,https://developers.openai.com/api/docs/pricing,2026-10-15
+GPT-4o mini,OpenAI,,0.15,0.6,0.075,,,https://developers.openai.com/api/docs/pricing,2026-10-15
+Claude Fable 5.1,Anthropic,,10,50,0.25,1000000,128000,https://platform.claude.com/docs/en/about-claude/pricing,2026-10-15
+Claude Opus 5.5,Anthropic,,4,20,0.2,1000000,128000,https://platform.claude.com/docs/en/about-claude/pricing,2026-10-15
+Claude Sonnet 5.5,Anthropic,,2,10,0.1,1000000,128000,https://platform.claude.com/docs/en/about-claude/pricing,2026-10-15
+Claude Haiku 5.5,Anthropic,prompt up to 100K,0.1,0.5,0.01,1000000,128000,https://platform.claude.com/docs/en/about-claude/pricing,2026-10-15
+Claude Haiku 4.5,Anthropic,,1,5,0.1,,,https://platform.claude.com/docs/en/about-claude/pricing,2026-10-15
+Gemini 3.1 Pro Preview,Google,prompt up to 200K,2,12,0.2,1048576,65536,https://ai.google.dev/gemini-api/docs/pricing,2026-10-15
+Gemini 3 Flash Preview,Google,,0.5,3,0.05,,,https://ai.google.dev/gemini-api/docs/pricing,2026-10-15
+Gemini 2.5 Pro,Google,prompt up to 200K,1.25,10,0.125,1048576,65536,https://ai.google.dev/gemini-api/docs/pricing,2026-10-15
+Gemini 2.5 Flash,Google,,0.3,2.5,0.03,1048576,65536,https://ai.google.dev/gemini-api/docs/pricing,2026-10-15
+Gemini 3.1 Flash-Lite,Google,,0.25,1.5,0.025,,,https://ai.google.dev/gemini-api/docs/pricing,2026-10-15
+Gemini 2.5 Flash-Lite,Google,,0.1,0.4,0.01,,,https://ai.google.dev/gemini-api/docs/pricing,2026-10-15
+Mistral Large 3,Mistral,,0.5,1.5,,,,https://docs.mistral.ai/inference/pricing,2026-10-15
+Mistral Medium 3.5,Mistral,,1.5,7.5,,,,https://docs.mistral.ai/inference/pricing,2026-10-15
+Mistral Small 4,Mistral,,0.15,0.6,,,,https://docs.mistral.ai/inference/pricing,2026-10-15
+DeepSeek V4.1 Flash,DeepSeek,off-peak,0.15,0.6,0.003,,,https://api-docs.deepseek.com/quick_start/pricing,2026-10-15
+DeepSeek V4.1 Flash,DeepSeek,peak hours,0.3,1.2,0.006,,,https://api-docs.deepseek.com/quick_start/pricing,2026-10-15
+DeepSeek V4 Pro,DeepSeek,off-peak,0.66,1.98,0.022,,,https://api-docs.deepseek.com/quick_start/pricing,2026-10-15
+DeepSeek V4 Pro,DeepSeek,peak hours,1.32,3.96,0.044,,,https://api-docs.deepseek.com/quick_start/pricing,2026-10-15

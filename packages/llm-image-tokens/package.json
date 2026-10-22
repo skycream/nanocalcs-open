@@ -1,0 +1,53 @@
+{
+  "name": "llm-image-tokens",
+  "version": "0.1.0",
+  "description": "Image input token formulas for OpenAI (patch and tile), Anthropic Claude and Google Gemini vision models. Zero dependencies.",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "sideEffects": false,
+  "homepage": "https://nanocalcs.com/en/vision-token-calculator/",
+  "keywords": [
+    "llm",
+    "tokens",
+    "vision",
+    "image",
+    "openai",
+    "claude",
+    "gemini"
+  ],
+  "author": "nanocalcs.com",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest run",
+    "prepublishOnly": "npm run build && npm test"
+  },
+  "devDependencies": {
+    "tsup": "9.0.0",
+    "typescript": "6.0.3",
+    "vitest": "5.0.5"
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "license": "CC-BY-4.0",
+  "description": "Snapshots of LLM API list prices (USD per 1M tokens). To record a price change, append a new snapshot with the new check date and the full price set (every model id). The page lists differences between neighbouring snapshots as recent changes. Live values come from site/src/tools/llm-api-cost-calculator/prices.ts; a test fails when the latest snapshot differs from them.",
+  "snapshots": [
+    {
+      "date": "2026-10-15",
+      "prices": {
+        "gpt-6-astra": {
+          "in": 10,
+          "out": 50,
+          "cacheRead": 1
+        },
+        "gpt-6.1-sol": {
+          "in": 2,
+          "out": 10,
+          "cacheRead": 0.1
+        },
+        "gpt-6-luna": {
+          "in": 0.1,
+          "out": 0.5,
+          "cacheRead": 0.01
+        },
+        "gpt-5.6-sol": {
+          "in": 4,
+          "out": 20,
+          "cacheRead": 0.4
+        },
+        "gpt-5.5": {
+          "in": 5,
+          "out": 30,
+          "cacheRead": 0.5
+        },
+        "gpt-5.4-mini": {
+          "in": 0.75,
+          "out": 4.5,
+          "cacheRead": 0.075
+        },
+        "gpt-5-mini": {
+          "in": 0.25,
+          "out": 2,
+          "cacheRead": 0.025
+        },
+        "gpt-4.1": {
+          "in": 2,
+          "out": 8,
+          "cacheRead": 0.5
+        },
+        "gpt-4o-mini": {
+          "in": 0.15,
+          "out": 0.6,
+          "cacheRead": 0.075
+        },
+        "claude-fable-5.1": {
+          "in": 10,
+          "out": 50,
+          "cacheRead": 0.25
+        },
+        "claude-opus-5.5": {
+          "in": 4,
+          "out": 20,
+          "cacheRead": 0.2
+        },
+        "claude-sonnet-5.5": {
+          "in": 2,
+          "out": 10,
+          "cacheRead": 0.1
+        },
+        "claude-haiku-5.5": {
+          "in": 0.1,
+          "out": 0.5,
+          "cacheRead": 0.01
+        },
+        "claude-haiku-4.5": {
+          "in": 1,
+          "out": 5,
+          "cacheRead": 0.1
+        },
+        "gemini-3.1-pro": {
+          "in": 2,
+          "out": 12,
+          "cacheRead": 0.2
+        },
+        "gemini-3-flash": {
+          "in": 0.5,
+          "out": 3,
+          "cacheRead": 0.05
+        },
+        "gemini-2.5-pro": {
+          "in": 1.25,
+          "out": 10,
+          "cacheRead": 0.125
+        },
+        "gemini-2.5-flash": {
+          "in": 0.3,
+          "out": 2.5,
+          "cacheRead": 0.03
+        },
+        "gemini-3.1-flash-lite": {
+          "in": 0.25,
+          "out": 1.5,
+          "cacheRead": 0.025
+        },
+        "gemini-2.5-flash-lite": {
+          "in": 0.1,
+          "out": 0.4,
+          "cacheRead": 0.01
+        },
+        "mistral-large-3": {
+          "in": 0.5,
+          "out": 1.5,
+          "cacheRead": null
+        },
+        "mistral-medium-3.5": {
+          "in": 1.5,
+          "out": 7.5,
+          "cacheRead": null
+        },
+        "mistral-small-4": {
+          "in": 0.15,
+          "out": 0.6,
+          "cacheRead": null
+        },
+        "deepseek-flash-off": {
+          "in": 0.15,
+          "out": 0.6,
+          "cacheRead": 0.003
+        },
+        "deepseek-flash-peak": {
+          "in": 0.3,
+          "out": 1.2,
+          "cacheRead": 0.006
+        },
+        "deepseek-pro-off": {
+          "in": 0.66,
+          "out": 1.98,
+          "cacheRead": 0.022
+        },
+        "deepseek-pro-peak": {
+          "in": 1.32,
+          "out": 3.96,
+          "cacheRead": 0.044
+        }
+      }
+    }
+  ]
+}
