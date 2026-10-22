@@ -7,7 +7,7 @@ The calculation logic here is the same code that runs on the site.
 
 | Package | Path | Description |
 |---|---|---|
-| [`nanocalcs-mcp`](https://www.npmjs.com/package/nanocalcs-mcp) | [`mcp-server`](./mcp-server) | MCP server for nanocalcs.com: exact calculators (dates, business days, Schengen, time zones, loans, compound interest, units, molar mass, SAT/AP scores, LLM tokens, API cost, GPU VRAM) plus prefilled links to 370+ free online tools. |
+| [`nanocalcs-mcp`](https://www.npmjs.com/package/nanocalcs-mcp) | [`mcp-server`](./mcp-server) | MCP server for nanocalcs.com: exact calculators (dates, business days, Schengen, time zones, loans, compound interest, units, molar mass, SAT/AP scores, LLM tokens, API cost, GPU VRAM) plus prefilled links to 430+ free online tools in 63 languages. |
 | [`national-id-validator`](https://www.npmjs.com/package/national-id-validator) | [`packages/national-id-validator`](./packages/national-id-validator) | Check-digit validation and detection of national ID numbers from 18 countries (KR RRN, JP My Number, CN, IN Aadhaar/PAN, TR, BR CPF/CNPJ, ID NIK, RU SNILS/INN, ES DNI/NIE, FR NIR, PK, MY, SA, VN, US SSN) plus IBAN. Zero dependencies. |
 | [`llm-image-tokens`](https://www.npmjs.com/package/llm-image-tokens) | [`packages/llm-image-tokens`](./packages/llm-image-tokens) | Image input token formulas for OpenAI (patch and tile), Anthropic Claude and Google Gemini vision models. Zero dependencies. |
 | [`gguf-size`](https://www.npmjs.com/package/gguf-size) | [`packages/gguf-size`](./packages/gguf-size) | GGUF quantization file size (F16 to Q2_K) and VRAM estimate (weights, KV cache, overhead) for local LLMs. Zero dependencies. |

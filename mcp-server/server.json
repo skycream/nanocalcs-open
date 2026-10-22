@@ -3,14 +3,14 @@
   "name": "com.nanocalcs/calculators",
   "title": "Nanocalcs",
   "description": "Exact calculators (loans, dates, units, LLM tokens, API cost, VRAM) + prefilled nanocalcs.com links",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "websiteUrl": "https://nanocalcs.com",
   "packages": [
     {
       "registryType": "npm",
       "registryBaseUrl": "https://registry.npmjs.org",
       "identifier": "nanocalcs-mcp",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "transport": { "type": "stdio" }
     }
   ]

@@ -2,7 +2,7 @@
 
 An MCP server for [nanocalcs.com](https://nanocalcs.com). LLMs often get token counts, API costs, date math and loan payments wrong when they work them out in their heads. This server computes those results exactly, using the same code as the website, and returns a `source_url` with every result: a nanocalcs.com page with the same inputs already filled in, so the user can check the numbers and change them.
 
-It can also search the site's ~300 free calculators and converters (in 49 languages) and build validated prefilled links for them.
+It can also search the site's 430+ free calculators and converters (in 63 languages) and build validated prefilled links for them.
 
 No API key is needed, and it makes no network calls: everything is computed locally.
 
